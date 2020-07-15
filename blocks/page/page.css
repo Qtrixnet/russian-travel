@@ -1,0 +1,34 @@
+.page {
+    width: 1280px;
+    margin: 0 auto;
+    background:  #2A2C2F;
+    font-family: 'Inter';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    transition: all .2s ease-in-out;
+  }
+
+@media screen and (max-width: 1024px) {
+  .page {
+    width: 1024px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page {
+    width: 768px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page {
+    width: 320px;
+  }
+}
