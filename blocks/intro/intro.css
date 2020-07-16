@@ -1,27 +1,23 @@
 @import url(./__title/intro__title.css);
 @import url(./__text/intro__text.css);
 @import url(./__list/intro__list.css);
+@import url(./__list-item/intro__list-item.css);
+@import url(./__list-number/intro__list-number.css);
 
 .intro {
-  width: 984px;
+  max-width: 984px;
+  box-sizing: border-box;
+  outline: 1px solid yellow;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .intro {
-    width: 928px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .intro {
-    width: 768px;
     padding-left: 24px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .intro {
-    width:320px;
     padding-left: 16px;
   }
 }

@@ -1,21 +1,21 @@
 .lead__image {
   width: 984px;
+  transition: all .2s ease-in-out;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .lead__image {
-    width: 928px;
+    width: 928px;;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .lead__image {
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .lead__image {
-    width: 768px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .lead__image {
-    width:320px;
   }
 }

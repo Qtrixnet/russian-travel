@@ -1,6 +1,6 @@
+@import url(./__container/page__container.css);
+
 .page {
-    width: 1280px;
-    margin: 0 auto;
     background:  #2A2C2F;
     font-family: 'Inter';
     display: flex;
@@ -14,21 +14,3 @@
     text-rendering: optimizeLegibility;
     transition: all .2s ease-in-out;
   }
-
-@media screen and (max-width: 1024px) {
-  .page {
-    width: 1024px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .page {
-    width: 768px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .page {
-    width: 320px;
-  }
-}

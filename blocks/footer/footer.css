@@ -5,27 +5,29 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  width: 1184px;
+  min-width: 1184px;
   padding: 92px 0 24px;
+  box-sizing: border-box;
+  transition: all .2s ease-in-out;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .footer {
-    width: 928px;
+    min-width: 928px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .footer {
-    width: 720px;
+    min-width: 720px;
     padding: 88px 0 24px;
 
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .footer {
-    width: 288px;
+    min-width: 288px;
     flex-direction: column;
     padding: 64px 0 24px;
  }
