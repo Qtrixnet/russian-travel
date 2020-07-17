@@ -7,16 +7,5 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-@media screen and (max-width: 1023px) {
-  .intro__text {
-
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .intro__text {
-
-  }
+  transition: all .2s ease-in-out;
 }

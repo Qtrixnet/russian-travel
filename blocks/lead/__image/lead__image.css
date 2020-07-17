@@ -1,6 +1,7 @@
 .lead__image {
   width: 984px;
   transition: all .2s ease-in-out;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1279px) {

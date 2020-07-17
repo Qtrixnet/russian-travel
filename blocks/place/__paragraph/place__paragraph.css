@@ -4,6 +4,8 @@
   color: #FFF;
   width: 484px;
   margin: 0;
+  box-sizing: border-box;
+  transition: all .2s ease-in-out;
 }
 
 .place__paragraph + .place__paragraph {

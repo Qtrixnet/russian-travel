@@ -24,6 +24,11 @@
     width: 928px;
     grid-column-gap: 32px;
   }
+
+  .place + .place {
+    padding-top: 84px;
+  }
+  
 }
 
 @media screen and (max-width: 1023px) {
@@ -31,6 +36,7 @@
     width: 720px;
     grid-column-gap: 28px;
   }
+
   .place + .place {
     padding-top: 72px;
   }
@@ -43,6 +49,7 @@
     grid-column-gap: 0;
     grid-row-gap: 32px;
 }
+
   .place + .place {
     padding-top: 48px;
   }

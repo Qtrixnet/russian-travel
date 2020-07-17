@@ -1,6 +1,7 @@
 .header__logo {
   width: 176px;
   height: 52px;
+  transition: all .2s ease-in-out;
 }
 
 @media screen and (max-width: 767px) {

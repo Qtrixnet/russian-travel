@@ -8,6 +8,8 @@
   margin: 245px auto 0;
   position: relative;
   z-index: 1;
+  box-sizing: border-box;
+  transition: all .2s ease-in-out;
 }
 
 @media screen and (max-width: 1279px) {
@@ -24,7 +26,7 @@
 
 @media screen and (max-width: 767px) {
   .cover__title {
-    width: 288px;
+    width: 248px;
     font-size: 32px;
     line-height: 1.09;
     margin: 33px auto 0;

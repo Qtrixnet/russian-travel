@@ -5,19 +5,26 @@
 @import url(./__list-number/intro__list-number.css);
 
 .intro {
-  max-width: 984px;
+  width: 984px;
   box-sizing: border-box;
-  outline: 1px solid yellow;
+  transition: all .2s ease-in-out;
+}
+
+@media screen and (max-width: 1279px){
+  .intro {
+    width: 928px;
+  }
 }
 
 @media screen and (max-width: 1023px) {
   .intro {
-    padding-left: 24px;
+    width: 100%;
+    padding: 0 24px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .intro {
-    padding-left: 16px;
+    padding: 0 16px;
   }
 }

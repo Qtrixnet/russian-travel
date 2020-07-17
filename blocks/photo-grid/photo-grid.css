@@ -24,6 +24,7 @@
     max-width: 720px;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 16px;
+    padding: 88px 0;
   }
 }
 
@@ -33,5 +34,6 @@
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 12px;
     grid-column-gap: 0;
+    padding: 64px 0;
   }
 } 
