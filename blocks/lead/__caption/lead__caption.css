@@ -1,5 +1,5 @@
 .lead__caption {
-  width: 984px;
+  max-width: 984px;
   margin: 0 auto;
   text-align: left;
   font-size: 10px;
@@ -9,12 +9,11 @@
   color: #FFF;
   margin-top: 8px;
   box-sizing: border-box;
-  transition: all .2s ease-in-out;
 }
 
 @media screen and (max-width: 1279px) {
   .lead__caption {
-    width: 928px;;
+    max-width: 928px;;
   }
 }
 

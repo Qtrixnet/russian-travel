@@ -7,7 +7,6 @@
   line-height: 36px;
   color: #fff;
   box-sizing: border-box;
-  transition: all .2s ease-in-out;
 }
 
 @media screen and (max-width: 1279px) {
@@ -19,7 +18,7 @@
 @media screen and (max-width: 767px) {
   .lead__subtitle {
     padding-bottom: 40px;
-    width: 288px;
+    max-width: 288px;
     font-size: 16px;
     line-height: 1.25;
   }

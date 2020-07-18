@@ -12,7 +12,6 @@
   grid-row-gap: 48px;
   grid-column-gap: 40px;
   box-sizing: border-box;
-  transition: all .2s ease-in-out;
 }
 
 .place + .place {

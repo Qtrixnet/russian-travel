@@ -1,39 +1,18 @@
 .cover__subtitle {
-  width: 360px;
-  font-style: normal;
-  font-weight: 100; /* Шрифт, вес, стиль по макету. */
+  color: #fff;
+  max-width: 360px;
+  margin: 32px 0 0;
   font-size: 18px;
   line-height: 1.22;
-  text-align: center;
-  color: #FFF;
-  margin: 0 auto 245px;
-  padding-top: 32px;
-  position: relative;
+  font-weight: 400;
   z-index: 1;
-}
-
-.cover__subtitle:hover .cover__overlay {
-  opacity: 1;
-}
-
-@media screen and (max-width: 1279px) {
-  .cover__subtitle {
-    margin: 0 auto 195px;
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .cover__subtitle {
-    margin: 0 auto 115px;
-  }
 }
 
 @media screen and (max-width: 767px) {
   .cover__subtitle {
-    width: 270px;
-    padding-top: 16px;
+    margin: 16px 16px 0;
+    max-width: 288px;
     font-size: 14px;
     line-height: 1.14;
-    margin: 0 auto 33px;
   }
 }
