@@ -10,7 +10,3 @@
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
 }
-
-.page * { 
-  outline: 1px solid yellow;
-}
