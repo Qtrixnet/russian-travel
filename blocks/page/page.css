@@ -10,3 +10,21 @@
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
 }
+
+/* header, footer, main, div, section, figure, nav, article{
+  outline: 1px solid white;
+  background: darkblue;
+}
+
+p, li, img, h1, h2, h3, figcaption, a, span {
+  outline: 1px dashed yellow;
+  background: orange;
+}
+
+.page {
+  background: black;
+}
+
+.page__container {
+  background: gray;
+} */
