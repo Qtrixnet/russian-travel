@@ -32,7 +32,6 @@
     flex-direction: column;
     max-width: 188px;
     padding: 64px 0 24px 16px;
-    align-self: flex-start;
     box-sizing: content-box;
   }
 }
