@@ -1,0 +1,10 @@
+.additional__list {
+  list-style: none;
+  max-width: 1184px;
+  width: 100%;
+  display: flex;
+  margin: 0;
+  padding: 72px 0 102px;
+  display: flex;
+  justify-content: space-between;
+}

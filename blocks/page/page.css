@@ -10,3 +10,7 @@
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
 }
+
+.page * {
+  transition: all .5s ease-in-out;
+}

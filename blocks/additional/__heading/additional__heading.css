@@ -1,0 +1,10 @@
+.additional__heading {
+  max-width: 248px;
+  font-style: normal; 
+  font-weight: 900;
+  font-size: 27px;
+  line-height: 29px;
+  color: #fff;
+  margin: 0;
+  z-index: 1;
+}

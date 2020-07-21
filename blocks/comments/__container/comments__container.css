@@ -1,0 +1,7 @@
+.comments__container {
+  width: 100%;
+  max-width: 1184px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 72px;
+}

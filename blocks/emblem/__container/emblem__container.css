@@ -1,0 +1,9 @@
+.emblem__container {
+  width: 100%;
+  max-width: 1184px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}

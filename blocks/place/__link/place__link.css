@@ -4,7 +4,6 @@
   text-decoration-line: underline;
   color: #FFF;
   margin: 0;
-  box-sizing: border-box;
   transition: all .5s ease-in-out;
 }
 

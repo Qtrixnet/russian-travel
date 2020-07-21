@@ -1,0 +1,11 @@
+.emblem__picture {
+  width: 186px;
+  height: 186px;
+  border-radius: 50%;
+  filter: grayscale(1);
+  margin: 82px 0 35px
+}
+
+.emblem__picture:hover {
+  filter: grayscale(0);
+}

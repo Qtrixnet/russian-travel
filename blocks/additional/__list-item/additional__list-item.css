@@ -1,0 +1,25 @@
+.additional__list-item {
+  width: 284px;
+  min-height: 330px;
+  border-radius: 5px;
+  margin: 0;
+  padding: 30px 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+
+.additional__list-item::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: #000;
+  opacity: .5;
+  z-index: 1;
+}

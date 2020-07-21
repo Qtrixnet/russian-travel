@@ -1,0 +1,8 @@
+@import url(./__author/comment__author.css);
+@import url(./__photo/comment__photo.css);
+@import url(./__quote/comment__quote.css);
+@import url(./__text/comment__text.css);
+
+.comment {
+  max-width: 382px;
+}
