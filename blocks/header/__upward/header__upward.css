@@ -1,0 +1,28 @@
+.header__upward {
+  text-decoration: none;
+  color: #fff;
+  font-size: 32px;
+  line-height: 1;
+  font-weight: 100;
+  display: block;
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+}
+
+.header__upward:hover {
+  opacity: .8;
+  transform: translateY(-5px);
+}
+
+@media screen and (min-width: 1920px) {
+  .header__upward {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1439px) {
+  .header__upward {
+    display: none;
+  }
+}

@@ -1,8 +1,13 @@
 @import url(./__title/lead__title.css);
 @import url(./__subtitle/lead__subtitle.css);
 @import url(./__image/lead__image.css);
+@import url(./__image-small-screen/lead__image-small-screen.css);
+@import url(./__image-wide-screen/lead__image-wide-screen.css);
 @import url(./__caption/lead__caption.css);
 @import url(./__map/lead__map.css);
+@import url(./__roadmap/lead__roadmap.css);
+@import url(./__road/lead__road.css);
+@import url(./__meter/lead__meter.css);
 
 .lead {
   width: 100%;
@@ -22,3 +27,4 @@
     padding-bottom: 64px;
   }
 }
+

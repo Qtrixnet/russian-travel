@@ -1,0 +1,22 @@
+.lead__road {
+  width: 95%;
+  padding: 0;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -85%);
+  z-index: 1;
+}
+
+@media screen and (max-width: 1279px) {
+  .lead__road {
+    width: 881px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .lead__road {
+    width: 95%;
+  }
+}
