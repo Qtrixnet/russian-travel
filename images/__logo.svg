@@ -14,7 +14,7 @@
 }
 
 .translate-right {
-  animation: translate-right 5s ease-in infinite;
+  animation: translate-right 3s ease-in infinite;
 
 }
 
@@ -32,7 +32,7 @@
 }
 
 .translate-left {
-  animation: translate-left 5s ease-in infinite;
+  animation: translate-left 3s ease-in infinite;
 }
 
 </style>
